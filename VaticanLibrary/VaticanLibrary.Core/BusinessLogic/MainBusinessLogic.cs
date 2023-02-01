@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace VaticanLibrary.Core.BusinessLogic
 {
-    internal class MainBusinessLogic
+    public class MainBusinessLogic
     {
+
     }
 }
