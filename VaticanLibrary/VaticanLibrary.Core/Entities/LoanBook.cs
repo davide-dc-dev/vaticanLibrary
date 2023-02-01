@@ -9,14 +9,14 @@ namespace VaticanLibrary.Core.Entities
     public class LoanBook
     {
 
-        public string IdUser { get; set; }
-        public string ISBN { get; set; }
+        public int IdUser { get; set; }
+        public int ISBN { get; set; }
 
         public DateOnly StartLoan { get; set; }
 
         public DateOnly EndLoan { get; set; }
 
-        public LoanBook(string idUser, string isbn, DateOnly startLoan, DateOnly endLoan)
+        public LoanBook(int idUser, int isbn, DateOnly startLoan, DateOnly endLoan)
         {
             IdUser = idUser;
             ISBN = isbn;
