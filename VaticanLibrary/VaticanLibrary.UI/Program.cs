@@ -1,18 +1,19 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-Console.WriteLine("Choose your option");
+Console.WriteLine("--- BENVENUTO NELLA BIBLIOTECA VATICANA ---");
+Console.WriteLine("Dove anche le pecorelle smarrite posso ritrovare il proprio gregge");
 Console.WriteLine();
-Console.WriteLine("1) Insert a new book into the bookshelf");
-Console.WriteLine("2) Update a book informations");
-Console.WriteLine("3) Show Book's informations");
-Console.WriteLine("4) Remove a book from the bookshelf");
+Console.WriteLine("1) Inserisci un libro nella tua biblioteca");
+Console.WriteLine("2) Aggiorna le informazioni relative a un libro");
+Console.WriteLine("3) Mostra le informazioni relative a un libro");
+Console.WriteLine("4) Rimuovi un libro dalla biblioteca");
 Console.WriteLine();
-Console.WriteLine("5) Register a new user");
-Console.WriteLine("6) Update a user's informations");
-Console.WriteLine("7) Show user's informations");
-Console.WriteLine("8) Remove registration of a user");
+Console.WriteLine("5) Registra un nuovo fedele");
+Console.WriteLine("6) Aggiorna le informazioni relative a un fedele");
+Console.WriteLine("7) Mostra le informazioni relative a un fedele");
+Console.WriteLine("8) Scomunica un utente");
 Console.WriteLine();
-Console.WriteLine("0) Exit the program");
+Console.WriteLine("0) Andate in pace");
 Console.WriteLine();
 
 string choice = "1";
