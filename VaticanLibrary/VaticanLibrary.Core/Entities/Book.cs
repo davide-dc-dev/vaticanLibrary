@@ -21,5 +21,10 @@ namespace VaticanLibrary.Core.Entities
             Author = author;
             Genre = genre;
         }
+
+        public override string ToString()
+        {
+            return $"{ISBN}, {Title}, {Author}, {Genre}";
+        }
     }
 }

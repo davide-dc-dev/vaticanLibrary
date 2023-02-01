@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\VaticanLibrary.Core.Mock\VaticanLibrary.Core.Mock.csproj" />
     <ProjectReference Include="..\VaticanLibrary.Core\VaticanLibrary.Core.csproj" />
   </ItemGroup>
 
