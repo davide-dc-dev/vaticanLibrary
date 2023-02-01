@@ -26,7 +26,8 @@ while (choice != "0")
     switch (choice)
     {
         case "1":
-            Console.WriteLine("case 1");
+            
+            Console.WriteLine("New book added to the bookshelf");
             Console.WriteLine("----------------------");
             Console.WriteLine();
             break;
