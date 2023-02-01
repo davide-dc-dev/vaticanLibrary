@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using VaticanLibrary.Core.Entities;
 
 namespace VaticanLibrary.Core.Interfaces
 {
-    internal interface IUserRepository
+    public interface IUserRepository : IRepository<User>
     {
     }
 }

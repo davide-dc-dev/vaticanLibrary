@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace VaticanLibrary.Core.Mock
 {
-    internal class MockUserRepository
+    public class MockUserRepository
     {
+        
     }
 }
