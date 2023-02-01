@@ -1,5 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using VaticanLibrary.Core.BusinessLogic;
+
 Console.WriteLine("Choose your option");
 Console.WriteLine();
 Console.WriteLine("1) Insert a new book into the bookshelf");
@@ -26,7 +28,7 @@ while (choice != "0")
     switch (choice)
     {
         case "1":
-            
+
             Console.WriteLine("New book added to the bookshelf");
             Console.WriteLine("----------------------");
             Console.WriteLine();
