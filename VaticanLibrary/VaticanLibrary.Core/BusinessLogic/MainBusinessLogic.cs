@@ -26,6 +26,22 @@ namespace VaticanLibrary.Core.BusinessLogic
             return bookRepo.Fetch();
         }
 
+        public void InsertBook(Book book)
+        {
+            bookRepo.Create(book);
+        }
+
+        public void RemoveBook(int id)
+        {
+            bookRepo.DeleteById(id);
+        }
+
+        public void UpdateBook(Book book)
+        {
+            bookRepo.Update(book);
+        }
+
+
         public IEnumerable<User> GetAllUsers()
         {
             return userRepo.Fetch();
@@ -39,6 +55,21 @@ namespace VaticanLibrary.Core.BusinessLogic
         public User GetUserById(int userId)
         {
             return userRepo.GetById(userId);
+        }
+
+        public void InsertUser(User user)
+        {
+            userRepo.Create(user);
+        }
+
+        public void RemoveUser(int id)
+        {
+            userRepo.DeleteById(id);
+        }
+
+        public void UpdateUser(User user)
+        {
+            userRepo.Update(user);
         }
     }
 }
