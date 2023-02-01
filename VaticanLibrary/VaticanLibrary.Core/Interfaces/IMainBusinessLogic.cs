@@ -13,6 +13,6 @@ namespace VaticanLibrary.Core.Interfaces
         IEnumerable<Book> GetAllBooks();
         Book GetBookById(int bookId);
         IEnumerable<User> GetAllUsers();
-        Book GetUserById(int userId);
+        User GetUserById(int userId);
     }
 }
